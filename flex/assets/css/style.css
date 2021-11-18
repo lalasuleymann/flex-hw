@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-section{
+    min-height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/about-me-main-picture.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section nav a{
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff ;
+    text-decoration: none;
+    font-size: 13px;
+}
+.about-section .about-me{
+    margin-top: 25px;
+    text-align: center;
+}
+.about-section .about-me span ::after{
+content: "";
+width: 50px;
+height: 2px;
+background-color: black;
+display: block;
+margin: auto;
+}
+img{
+    float: left;
+}
+.about-me-main title p img{
+    width:170px;
+    height:170px;
+    margin: 20px auto;
+}
+.about-me {
+    margin-bottom: 70px;
+}
+.about-me-main title p p{
+    padding-top: 50px;
+}
+.hire-button{
+display: inline-block;
+text-decoration: none;
+color: white;
+border: 1px solid grey;
+padding: 12px 34px;
+font-size: 13px;
+background: grey;
+position: relative;
+}
+.what-i-do-section .what-i-do-intro{
+    margin-top: 200px;
+    text-align: center;
+}
+.what-i-do-section .what-i-do-intro span ::after{
+content: "";
+width: 50px;
+height: 2px;
+background-color: black;
+display: block;
+margin: auto;
+}
+.what-i-do-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+.what-i-do-main div{
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+}
+.what-i-do-main a{
+    height: 30px;
+    width: 30px;
+}
+.my-works-section .my-works-intro{
+    margin-top: 200px;
+    text-align: center;
+}
+.my-works-section .my-works-intro span ::after{
+content: "";
+width: 50px;
+height: 2px;
+background-color: black;
+display: block;
+margin: auto;
+}
+.my-works-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+.my-works-main div{
+    padding: 0 20px 20px;
+}
